@@ -13,73 +13,88 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Bronze">
+      <UniqueIdentifier>{82fa226f-b0b5-4c9b-940d-2083ff462811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sliver">
+      <UniqueIdentifier>{8589c23c-d0fa-40be-8186-2215bbfb8ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Gold">
+      <UniqueIdentifier>{b1256d52-96df-49da-b95f-ba49b7e36991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\해결중">
+      <UniqueIdentifier>{1b0b7224-c77b-434a-be91-937d54221ec3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="25083.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10926.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="18108.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2525.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2480.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1085.cpp">
+      <Filter>소스 파일\Bronze</Filter>
     </ClCompile>
     <ClCompile Include="1110.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10818.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2562.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2577.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="3052.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Bronze</Filter>
     </ClCompile>
     <ClCompile Include="1152.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="18258.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2164.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Bronze</Filter>
     </ClCompile>
     <ClCompile Include="1158.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11866.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10845.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10828.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10989.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1929.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9012.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1085.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Sliver</Filter>
     </ClCompile>
     <ClCompile Include="1181.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="1929.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="2164.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="2480.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2525.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2562.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2577.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="3052.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="9012.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="10818.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="10828.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="10845.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="10926.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="10989.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="11866.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="18108.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="18258.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="25083.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="5430.cpp">
+      <Filter>소스 파일\해결중</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
