@@ -94,6 +94,27 @@
       <Filter>소스 파일\Bronze</Filter>
     </ClCompile>
     <ClCompile Include="5430.cpp">
+      <Filter>소스 파일\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="10814.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="2920.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2675.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="8958.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="11654.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="11720.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="1157.cpp">
       <Filter>소스 파일\해결중</Filter>
     </ClCompile>
   </ItemGroup>
