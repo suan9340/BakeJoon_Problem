@@ -139,24 +139,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10809.cpp" />
     <ClCompile Include="10818.cpp" />
     <ClCompile Include="10828.cpp" />
     <ClCompile Include="10845.cpp" />
     <ClCompile Include="1085.cpp" />
     <ClCompile Include="10926.cpp" />
     <ClCompile Include="10989.cpp" />
+    <ClCompile Include="11050.cpp" />
     <ClCompile Include="1110.cpp" />
     <ClCompile Include="1152.cpp" />
     <ClCompile Include="1157.cpp" />
     <ClCompile Include="1158.cpp" />
+    <ClCompile Include="11650.cpp" />
     <ClCompile Include="11654.cpp" />
     <ClCompile Include="11720.cpp" />
     <ClCompile Include="1181.cpp" />
     <ClCompile Include="11866.cpp" />
+    <ClCompile Include="1259.cpp" />
+    <ClCompile Include="1546.cpp" />
     <ClCompile Include="18108.cpp" />
     <ClCompile Include="18258.cpp" />
     <ClCompile Include="1929.cpp" />
     <ClCompile Include="2164.cpp" />
+    <ClCompile Include="2475.cpp" />
     <ClCompile Include="2480.cpp" />
     <ClCompile Include="25083.cpp" />
     <ClCompile Include="2525.cpp" />
@@ -164,6 +170,8 @@
     <ClCompile Include="2577.cpp" />
     <ClCompile Include="10814.cpp" />
     <ClCompile Include="2675.cpp" />
+    <ClCompile Include="2751.cpp" />
+    <ClCompile Include="2908.cpp" />
     <ClCompile Include="2920.cpp" />
     <ClCompile Include="5430.cpp" />
     <ClCompile Include="8958.cpp" />
