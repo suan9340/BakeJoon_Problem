@@ -141,5 +141,14 @@
     <ClCompile Include="11050.cpp">
       <Filter>소스 파일\Bronze</Filter>
     </ClCompile>
+    <ClCompile Include="2798.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="4153.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="1978.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
