@@ -154,6 +154,9 @@
       <Filter>소스 파일\Bronze</Filter>
     </ClCompile>
     <ClCompile Include="1018.cpp">
+      <Filter>소스 파일\해결중</Filter>
+    </ClCompile>
+    <ClCompile Include="2609.cpp">
       <Filter>소스 파일\Sliver</Filter>
     </ClCompile>
   </ItemGroup>
