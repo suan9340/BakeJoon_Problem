@@ -168,5 +168,29 @@
     <ClCompile Include="7568.cpp">
       <Filter>소스 파일\Sliver</Filter>
     </ClCompile>
+    <ClCompile Include="10699.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="7287.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="11382.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2420.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="10872.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="10807.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="5597.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2738.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
