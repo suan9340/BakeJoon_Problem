@@ -5,11 +5,21 @@
 
 using namespace std;
 
-double n, ninput;
-double num, overlap, none;
-double a, b, c, d;
-vector<double> v;
+int n, input;
+int a, b, c, d;
+vector<int> v;
 vector<pair<int, int>> numv;
+
+bool comp(const pair<int, int>& p1, const pair<int, int>& p2)
+{
+
+	if (p1.second == p2.second)
+	{
+		return p1.first < p2.first;
+	}
+	return p1.second > p2.second;
+
+}
 
 int main()
 {
@@ -17,8 +27,8 @@ int main()
 
 	for (int i = 0; i < n; i++)
 	{
-		cin >> ninput;
-		v.push_back(ninput);
+		cin >> input;
+		v.push_back(input);
 	}
 
 	if (n == 1)
@@ -37,41 +47,42 @@ int main()
 	{
 		a += v[i];
 	}
-	a /= n;
-	a = round(a);
+	a = round((float)a / n);
 
 
 	// b
-	if (n == 1 ? (b = v[0]) : (b = v[(n / 2)]));
-
+	b = v[(n / 2)];
 
 	// c
-	for (int i = 1; i < n; i++)
+	for (int i = 0; i < v.size(); i++)
 	{
-		if (v[i - 1] == v[i])
+		if (numv.empty())
 		{
-			none++;
-			num += 1;
+			numv.push_back({ v[i],1 });
+			continue;
+		}
+		if (numv.back().first == v[i])
+		{
+			pair<int, int> _tmp = numv.back();
+			_tmp.second++;
+			numv.pop_back();
+			numv.push_back(_tmp);
 		}
 		else
 		{
-			num = 0;
-		}
-
-		if (num > overlap)
-		{
-			overlap = v[i];
+			numv.push_back({ v[i],1 });
 		}
 	}
 
-	if (none == 0 ? (c = v[1]) : (c = overlap));
+	sort(numv.begin(), numv.end(), comp);
 
+	if (numv[0].second == numv[1].second ? (c = numv[1].first) : (c = numv[0].first));
 
 
 	// d
 	d = (v[n - 1]) - (v[0]);
 
-	cout << a << "\n" << b << "\n" << c << "\n" << d;
 
+	cout << a << "\n" << b << "\n" << c << "\n" << d;
 	return 0;
 }
