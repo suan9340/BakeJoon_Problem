@@ -228,5 +228,23 @@
     <ClCompile Include="2108.cpp">
       <Filter>소스 파일\Sliver</Filter>
     </ClCompile>
+    <ClCompile Include="1107.cpp">
+      <Filter>소스 파일\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="2231.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="3190.cpp">
+      <Filter>소스 파일\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="10773.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="9935.cpp">
+      <Filter>소스 파일\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="3003.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
