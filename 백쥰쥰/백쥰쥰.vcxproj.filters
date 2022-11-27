@@ -16,14 +16,14 @@
     <Filter Include="소스 파일\Bronze">
       <UniqueIdentifier>{82fa226f-b0b5-4c9b-940d-2083ff462811}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Sliver">
-      <UniqueIdentifier>{8589c23c-d0fa-40be-8186-2215bbfb8ca3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Gold">
       <UniqueIdentifier>{b1256d52-96df-49da-b95f-ba49b7e36991}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\해결중">
       <UniqueIdentifier>{1b0b7224-c77b-434a-be91-937d54221ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sliver">
+      <UniqueIdentifier>{8589c23c-d0fa-40be-8186-2215bbfb8ca3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
