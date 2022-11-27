@@ -246,5 +246,8 @@
     <ClCompile Include="3003.cpp">
       <Filter>소스 파일\Bronze</Filter>
     </ClCompile>
+    <ClCompile Include="25304.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
