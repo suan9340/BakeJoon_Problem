@@ -276,5 +276,17 @@
     <ClCompile Include="14425.cpp">
       <Filter>소스 파일\Sliver</Filter>
     </ClCompile>
+    <ClCompile Include="9461.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="1269.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
+    <ClCompile Include="12865.cpp">
+      <Filter>소스 파일\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="11478.cpp">
+      <Filter>소스 파일\Sliver</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
