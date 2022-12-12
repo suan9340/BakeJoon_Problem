@@ -199,8 +199,10 @@
     <ClCompile Include="25304.cpp" />
     <ClCompile Include="25305.cpp" />
     <ClCompile Include="2562.cpp" />
+    <ClCompile Include="2566.cpp" />
     <ClCompile Include="2577.cpp" />
     <ClCompile Include="10814.cpp" />
+    <ClCompile Include="2587.cpp" />
     <ClCompile Include="2609.cpp" />
     <ClCompile Include="2675.cpp" />
     <ClCompile Include="2738.cpp" />
@@ -230,6 +232,10 @@
     <ClCompile Include="9086.cpp" />
     <ClCompile Include="9461.cpp" />
     <ClCompile Include="9935.cpp" />
+    <ClCompile Include="A.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

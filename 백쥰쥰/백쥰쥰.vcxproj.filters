@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Sliver">
       <UniqueIdentifier>{8589c23c-d0fa-40be-8186-2215bbfb8ca3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\겨울 숲의 초대">
+      <UniqueIdentifier>{ce3fcb8c-9b2f-42af-9bcd-4e31363ed686}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1085.cpp">
@@ -297,5 +300,19 @@
     <ClCompile Include="5086.cpp">
       <Filter>소스 파일\Bronze</Filter>
     </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>소스 파일\겨울 숲의 초대</Filter>
+    </ClCompile>
+    <ClCompile Include="2566.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2587.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
