@@ -26,7 +26,8 @@
 //
 //	return 0;
 //}
-//
+// 
+// 0
 //int BFS(int _n)
 //{
 //	q.push(_n);
