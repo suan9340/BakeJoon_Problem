@@ -363,6 +363,9 @@
     <ClCompile Include="1316.cpp">
       <Filter>소스 파일\Sliver</Filter>
     </ClCompile>
+    <ClCompile Include="7662.cpp">
+      <Filter>소스 파일\Gold</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
