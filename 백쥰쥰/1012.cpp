@@ -48,8 +48,9 @@
 //	for (int i = 0; i < 4; i++)
 //	{
 //		ny = _y + dy[i];
-//		nx = +x + dx[i];
+//		nx = _x + dx[i];
 //
+//		if (nx >= 0 & ny >= 0 &&)
 //	}
 //
 //	return;
