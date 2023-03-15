@@ -384,6 +384,18 @@
     <ClCompile Include="2440.cpp">
       <Filter>소스 파일\Bronze</Filter>
     </ClCompile>
+    <ClCompile Include="10810.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="27866.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="10813.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="10811.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
