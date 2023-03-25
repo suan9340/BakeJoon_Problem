@@ -1,57 +1,81 @@
 //#include <iostream>
 //using namespace std;
 //
-//void DFS(int _y, int _x);
+//const int MAX = 51;
+//int T, M, N, K;
+//int map[MAX][MAX];
+//int visited[MAX][MAX];
+//int dy[] = { 0,0,-1,1 };
+//int dx[] = { -1,1,0,0 };
 //
-//int dy[4] = { -1,0,1,0 };
-//int dx[4] = { 0,1,0,-1 };
-//int m, n, k, y, x, ret, ny, nx, t;
-//int map[51][51];
-//bool visited[51][51];
-//
-//int main()
-//{
-//	cin >> t;
-//
-//	while (t--)
+//void reset() {
+//	for (int i = 0; i < N; i++)
 //	{
-//		fill_n(map[0], 51 * 51, 0);
-//		fill(&visited[0][0], &visited[0][0] + 51 * 51, 0);
-//		ret = 0;
-//
-//		cin >> m >> n >> k;
-//
-//		for (int i = 0; i < n; i++)
+//		for (int j = 0; j < M; j++)
 //		{
-//			cin >> x >> y;
-//			map[y][x] = 1;
+//			map[i][j] = 0;
 //		}
-//
-//		for (int i = 0; i < n; i++)
-//		{
-//			for (int j = 0; j < m; j++)
-//			{
-//
-//			}
-//		}
-//
-//		cout << ret << "\n";
 //	}
 //
-//	return 0;
+//	for (int i = 0; i < N; i++)
+//	{
+//		for (int j = 0; j < M; j++)
+//		{
+//			visited[i][j] = 0;
+//		}
+//	}
 //}
 //
-//void DFS(int _y, int _x)
+//void DFS(int y, int x)
 //{
 //	visited[y][x] = 1;
 //
 //	for (int i = 0; i < 4; i++)
 //	{
-//		ny = _y + dy[i];
-//		nx = _x + dx[i];
+//		int nx = x + dx[i];
+//		int ny = y + dy[i];
 //
-//		if (nx >= 0 & ny >= 0 &&)
+//		if (nx < 0 || nx >= M || ny < 0 || ny >= N)
+//			continue;
+//
+//		if (map[ny][nx] == 1 && visited[ny][nx] == 0)
+//		{
+//			DFS(ny, nx);
+//		}
+//	}
+//}
+//
+//int main()
+//{
+//	cin >> T;
+//
+//	while (T--)
+//	{
+//		cin >> M >> N >> K;
+//
+//		reset();
+//
+//		while (K--)
+//		{
+//			int x, y;
+//			cin >> x >> y;
+//			map[y][x] = 1;
+//		}
+//
+//		int cnt = 0;
+//		for (int i = 0; i < N; i++)
+//		{
+//			for (int j = 0; j < M; j++)
+//			{
+//				if (map[i][j] == 1 && visited[i][j] == 0)
+//				{
+//					DFS(i, j);
+//					cnt++;
+//				}
+//			}
+//		}
+//
+//		cout << cnt << "\n";
 //	}
 //
-//	return;
 //}
