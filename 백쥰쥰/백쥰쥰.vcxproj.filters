@@ -420,6 +420,12 @@
     <ClCompile Include="17298.cpp">
       <Filter>소스 파일\Gold</Filter>
     </ClCompile>
+    <ClCompile Include="2166.cpp">
+      <Filter>소스 파일\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="25314.cpp">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
